@@ -31,6 +31,7 @@ export const SOLUTIONS = [
     href: '/solutions/clinical-trials',
     icon: 'ClipboardList',
     metrics: ['34% Faster Screening', '11% Higher Enrollment', 'Improved Retention'],
+    featured: false,
   },
   {
     id: 'access-reimbursement',
@@ -40,6 +41,7 @@ export const SOLUTIONS = [
     href: '/solutions/access-reimbursement',
     icon: 'Shield',
     metrics: ['50-75% PA Automation', 'Faster Time-to-Therapy', 'Higher Approval Rates'],
+    featured: false,
   },
   {
     id: 'pharmacovigilance',
@@ -49,6 +51,7 @@ export const SOLUTIONS = [
     href: '/solutions/pharmacovigilance',
     icon: 'AlertCircle',
     metrics: ['24/7 AE Intake', 'Complete Reports', 'Faster Processing'],
+    featured: false,
   },
 ] as const;
 

@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/platform/page": "app/platform/page.js",
+  "/page": "app/page.js",
+  "/solutions/access-reimbursement/page": "app/solutions/access-reimbursement/page.js",
+  "/solutions/clinical-trials/page": "app/solutions/clinical-trials/page.js",
+  "/solutions/medical-information/page": "app/solutions/medical-information/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/solutions/pharmacovigilance/page": "app/solutions/pharmacovigilance/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js"
+}

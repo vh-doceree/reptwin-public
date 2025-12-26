@@ -5,11 +5,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Stethoscope, Users, ClipboardList, Shield, AlertCircle, ArrowRight } from 'lucide-react';
+import { Menu, X, ChevronDown, Stethoscope, Users, ClipboardList, Shield, AlertCircle, ArrowRight, LucideIcon } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { NAV_LINKS, SOLUTIONS } from '@/lib/constants';
 
-const solutionIcons: { [key: string]: React.ComponentType<{ size?: number; className?: string }> } = {
+const solutionIcons: { [key: string]: LucideIcon } = {
   Stethoscope,
   Users,
   ClipboardList,

@@ -7,13 +7,14 @@ import {
   ClipboardList, 
   Shield, 
   AlertCircle,
-  ArrowRight
+  ArrowRight,
+  LucideIcon
 } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { SOLUTIONS } from '@/lib/constants';
 
-const iconMap: { [key: string]: React.ComponentType<{ size?: number; className?: string }> } = {
+const iconMap: { [key: string]: LucideIcon } = {
   Stethoscope,
   ClipboardList,
   Shield,
